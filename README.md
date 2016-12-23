@@ -1,6 +1,6 @@
 # Coin Cell Emulator
 
-Tired of wasting Coin Cells? With this CR2032 Coin Cell emulator you have an infintely charged battery, connected using USB mini. At Studio Sophisti (http://www.studiosophisti.nl/) we use this PCB intensively in order to reduce our battery consumption.
+Tired of wasting Coin Cell batteries? With this CR2032 Coin Cell emulator you have an infintely charged battery, connected using USB mini. At Studio Sophisti (http://www.studiosophisti.nl/) we use this PCB intensively in order to reduce our battery consumption.
 
 This product consists out of 2 PCB's that are stacked. If you produce them at 1.6mm thickness, they match exactly the CR2032 size.
 
