@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -458,8 +458,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="11" y="10" size="2" layer="52" rot="MR90" align="bottom-center"/>
 </element>
 <element name="3V" library="dp_devices" package="M1X2_10_17" value="CON_HEADER_1X01-PTH_10_17" x="13" y="5.5" smashed="yes"/>
-<element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="" x="10.5" y="6" rot="R90"/>
-<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="" x="11.5" y="13"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="1u" x="10.5" y="6" rot="R90"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="1u" x="11.5" y="13"/>
 </elements>
 <signals>
 <signal name="N$1" class="1">
@@ -467,8 +467,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="U1" pad="3"/>
 <contactref element="JP1" pad="VBUS"/>
 <contactref element="C2" pad="1"/>
-<wire x1="10.5" y1="10.75" x2="10.5" y2="11.5" width="0.635" layer="1"/>
-<wire x1="10.5" y1="11.5" x2="10.5" y2="13" width="0.635" layer="1"/>
+<wire x1="10.5" y1="10.75" x2="10.5" y2="12" width="0.635" layer="1"/>
+<wire x1="10.5" y1="12" x2="10.5" y2="13" width="0.635" layer="1"/>
 <wire x1="10.25" y1="10.75" x2="10.5" y2="10.75" width="0.635" layer="1"/>
 <wire x1="10.5" y1="13" x2="10.65" y2="13" width="0.635" layer="1"/>
 <wire x1="10.25" y1="10.75" x2="10.1699" y2="10.73" width="0.635" layer="1"/>
@@ -478,8 +478,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.5" y1="10.5" x2="11.25" y2="10.5" width="0.635" layer="1"/>
 <wire x1="10.25" y1="9" x2="10.1699" y2="8.83" width="0.635" layer="1"/>
 <wire x1="10.5" y1="10.5" x2="10.1699" y2="10.73" width="0.635" layer="1"/>
-<wire x1="10.5" y1="11.5" x2="7.25" y2="11.5" width="0.635" layer="1"/>
-<wire x1="7.25" y1="11.5" x2="7.1" y2="11.6" width="0.635" layer="1"/>
+<wire x1="10.5" y1="12" x2="7.25" y2="12" width="0.635" layer="1"/>
+<wire x1="7.25" y1="12" x2="7.1" y2="11.6" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="GND" pad="P$1"/>
@@ -502,16 +502,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.5" y1="13" x2="12.35" y2="13" width="0.635" layer="1"/>
 <wire x1="9.5" y1="9.75" x2="10" y2="9.75" width="0.635" layer="1"/>
 <wire x1="9" y1="9.25" x2="9.5" y2="9.75" width="0.635" layer="1"/>
-<wire x1="9" y1="8.5" x2="9" y2="9.25" width="0.635" layer="1"/>
-<wire x1="7.25" y1="8.5" x2="9" y2="8.5" width="0.635" layer="1"/>
+<wire x1="9" y1="8.25" x2="9" y2="9.25" width="0.635" layer="1"/>
+<wire x1="7.25" y1="8" x2="9" y2="8" width="0.635" layer="1"/>
 <wire x1="10" y1="9.75" x2="10.1699" y2="9.78" width="0.635" layer="1"/>
-<wire x1="7.25" y1="8.5" x2="7.1" y2="8.4" width="0.635" layer="1"/>
+<wire x1="7.25" y1="8" x2="7.1" y2="8.4" width="0.3048" layer="1"/>
 <wire x1="6.75" y1="8.25" x2="5.75" y2="7.25" width="0.635" layer="1"/>
-<wire x1="7" y1="8.25" x2="6.75" y2="8.25" width="0.635" layer="1"/>
-<wire x1="7" y1="8.25" x2="7.1" y2="8.4" width="0.635" layer="1"/>
+<wire x1="7" y1="8.25" x2="6.75" y2="8.25" width="0.3048" layer="1"/>
+<wire x1="7" y1="8.25" x2="7.1" y2="8.4" width="0.3048" layer="1"/>
 <wire x1="9" y1="8.25" x2="10.25" y2="7" width="0.635" layer="1"/>
 <wire x1="10.25" y1="7" x2="10.5" y2="6.85" width="0.635" layer="1"/>
-<wire x1="9" y1="8.25" x2="9" y2="8.5" width="0.635" layer="1"/>
+<wire x1="9" y1="8.25" x2="9" y2="8" width="0.635" layer="1"/>
 <via x="12.5" y="14.25" extent="1-16" drill="0.635"/>
 <via x="5.75" y="7.25" extent="1-16" drill="0.635"/>
 </signal>
